@@ -46,23 +46,21 @@ To use the Kaggle API:
 2. 🧰 Install the required package:
 
 ```bash
-pip install kagglehub
-
+pip install kagglehub 
 
 ## 🌐 Technologies Used
 
-| Technology              | Purpose / Role                                     |
-|-------------------------|----------------------------------------------------|
-| 🐍 **Python 3.11**       | Core programming language                          |
-| 🤖 **OpenAI API**        | Generate embeddings, perform classification, sentiment |
-| 🧠 **LangChain**         | Orchestrate LLM chains and prompts                 |
-| 📦 **ChromaDB**          | Store and search vector embeddings                 |
-| 🤗 **Transformers**      | Use pre-trained NLP models (Hugging Face)         |
-| 🖼️ **Gradio**            | Create interactive web app for recommendations     |
-| 📊 **Pandas**            | Data manipulation and analysis                     |
-| 📈 **Matplotlib** / **Seaborn** | Data visualization                          |
-| 🧾 **Zero-shot classification** | Classify books (e.g., Fiction vs. Non-fiction) without training |
-| 🎭 **Sentiment & Emotion Analysis** | Extract tone and mood from book descriptions |
+- 🐍 **Python 3.11** – Programming language
+- 🤖 **OpenAI API** – For embeddings, classification, and sentiment analysis
+- 🧠 **LangChain** – LLM orchestration and chaining
+- 📦 **ChromaDB** – Vector storage and semantic search
+- 🤗 **Transformers (Hugging Face)** – Pretrained LLM models
+- 🖼️ **Gradio** – Interactive web UI for book recommendations
+- 📊 **Pandas** – Data manipulation and exploration
+- 📈 **Seaborn** / **Matplotlib** – Visualization and plots
+- 🧾 **Zero-shot Classification** – Genre classification with no training
+- 🎭 **Sentiment & Emotion Analysis** – Understand book tone/mood
+
 
 
 
