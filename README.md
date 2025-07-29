@@ -48,19 +48,6 @@ To use the Kaggle API:
 ```bash
 pip install kagglehub 
 
-## 🌐 Technologies Used
-
-- 🐍 **Python 3.11** – Programming language
-- 🤖 **OpenAI API** – For embeddings, classification, and sentiment analysis
-- 🧠 **LangChain** – LLM orchestration and chaining
-- 📦 **ChromaDB** – Vector storage and semantic search
-- 🤗 **Transformers (Hugging Face)** – Pretrained LLM models
-- 🖼️ **Gradio** – Interactive web UI for book recommendations
-- 📊 **Pandas** – Data manipulation and exploration
-- 📈 **Seaborn** / **Matplotlib** – Visualization and plots
-- 🧾 **Zero-shot Classification** – Genre classification with no training
-- 🎭 **Sentiment & Emotion Analysis** – Understand book tone/mood
-
 
 
 
