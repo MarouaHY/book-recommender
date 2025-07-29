@@ -33,5 +33,36 @@ I’m rebuilding it from scratch to improve my understanding of LLMs, embeddings
 | `requirements.txt`       | List of all required Python packages |
 
 ---
+## 📥 Dataset
+
+This project uses a dataset available on [Kaggle](https://www.kaggle.com/).  
+The notebook includes instructions for downloading it using the `kagglehub` package.
+
+To use the Kaggle API:
+
+1. 🔐 Create an API token from your Kaggle account  
+   (Go to https://www.kaggle.com/account → "Create New API Token")
+
+2. 🧰 Install the required package:
+
+```bash
+pip install kagglehub
+
+
+## 🌐 Technologies Used
+
+| Technology              | Purpose / Role                                     |
+|-------------------------|----------------------------------------------------|
+| 🐍 **Python 3.11**       | Core programming language                          |
+| 🤖 **OpenAI API**        | Generate embeddings, perform classification, sentiment |
+| 🧠 **LangChain**         | Orchestrate LLM chains and prompts                 |
+| 📦 **ChromaDB**          | Store and search vector embeddings                 |
+| 🤗 **Transformers**      | Use pre-trained NLP models (Hugging Face)         |
+| 🖼️ **Gradio**            | Create interactive web app for recommendations     |
+| 📊 **Pandas**            | Data manipulation and analysis                     |
+| 📈 **Matplotlib** / **Seaborn** | Data visualization                          |
+| 🧾 **Zero-shot classification** | Classify books (e.g., Fiction vs. Non-fiction) without training |
+| 🎭 **Sentiment & Emotion Analysis** | Extract tone and mood from book descriptions |
+
 
 
