@@ -1,22 +1,33 @@
-# 📚 Semantic Book Recommender using LLMs
+# 📚 AI Book Recommender
 
-This is my personal implementation of a **Semantic Book Recommender System** powered by **Large Language Models (LLMs)**, **vector databases**, and an interactive **Gradio web app**.
-
-The project is based on the freeCodeCamp course:  
-➡️ [Build a Semantic Book Recommender with LLMs – Full Course](https://www.youtube.com/watch?v=Q7mS1VHm3Yw&list=WL&index=3)
-
-I’m rebuilding it from scratch to improve my understanding of LLMs, embeddings, zero-shot classification, and real-world NLP systems.
+An intelligent book recommender system that uses **Hugging Face embeddings**, **LangChain**, **ChromaDB**, and **Gradio** to provide genre prediction, sentiment analysis, and smart recommendations — all in an interactive UI.
 
 ---
 
-## 🧠 Features
+## 🚀 Features
 
-- ✅ Clean and explore book metadata and descriptions
-- 🧠 Use OpenAI embeddings for semantic search
-- 🔎 Build a vector database using **Chroma**
-- 🧾 Classify books using **zero-shot** techniques (Fiction / Non-fiction)
-- 🎭 Perform sentiment and emotion analysis on summaries
-- 🖥️ Deploy a full interactive recommendation UI with **Gradio**
+- 📖 Upload a CSV of books (title, author, description)
+- 📚 Generate embeddings using **HuggingFace (MiniLM-L6-v2)**
+- 🔍 Semantic search for similar books
+- 🎭 Sentiment and emotion analysis
+- 🧠 Zero-shot genre classification
+- 🌐 Intuitive **Gradio** web interface
+
+---
+
+## 🌐 Technologies Used
+
+| Technology                   | Description                                                          |
+|------------------------------|----------------------------------------------------------------------|
+| 🐍 Python 3.11               | Core programming language                                            |
+| 🤗 HuggingFace Transformers  | For pretrained embeddings & classification models                   |
+| 🧠 LangChain                 | Orchestrates LLMs and embeddings using `HuggingFaceEmbeddings`       |
+| 📦 ChromaDB                 | Vector database for similarity search                                |
+| 🖼️ Gradio                   | Web UI for input/output and interaction                             |
+| 📊 Pandas                   | Dataset loading and manipulation                                     |
+| 📈 Seaborn, Matplotlib       | Data visualization tools                                             |
+| 🧾 Zero-shot Classification | Genre tagging without training                                       |
+| 🎭 Sentiment Analysis        | Detects tone and emotional context of books                         |
 
 ---
 
